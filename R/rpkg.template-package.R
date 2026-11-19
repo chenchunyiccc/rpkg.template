@@ -1,4 +1,5 @@
 #' @import magrittr
+#' @importFrom stats .lm.fit
 #' @keywords internal
 "_PACKAGE"
 

@@ -70,7 +70,7 @@ lm_solve <- function(design, response, only.SSE = FALSE, ...) {
     list(
       coef = l$coefficients,
       fitted = as.vector(fitted),
-      resi = l$residuals,
+      resi = as.vector(l$residuals),
       SSE = SSE
     )
   } else {
